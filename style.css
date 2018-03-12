@@ -1,26 +1,31 @@
-body {
-  padding: 5px;
-  margin: 5px;
+
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 header {
   background-color: lightgrey;
   color: white;
-  padding-bottom: 400px;
+  padding-bottom: 200px;
+  background-image: url(https://lh3.googleusercontent.com/RqhpGdUlV6_uWxIc4LUFqw6RjNWMuyvFWaT7ioEy-climA3speOHcWo-uKCvrvHkbiVYKBxH5KvaGYmvIRFVJ6EKCvBUGPkzvtZN-BZKdUHLu3IC-oMlWC2DlQBtdN71wSysk_uPCNo3ZFlPHcFSldsCYSQWjAGXthzQG0wtUQReKQYyS_mYsVjLZG7DdF4Z4sj8-AD0V1zMZeVDRfF6m5gh_2lgaJ3m42Oy5V4Q-zGrUUrCU6Xgfoqzcb_PoLUwx1cPbLfhGF_-exOi9hFVzqImpcU8e1PjGO3mqzDxeWkVVNQ4B8Y1c0j8mzk6Io07v8bjhuotEixiR3bFejGJGp0JyXWdK7HDv1H6z0FGFtoKFBr6-Cvk_E-7qkDd5F2Dvm_E6ffhZBBIUYIlCUBLPJBgN9k4C-3lXnaUYplA4Z_EYG3lsQnzBU-6N0nAPhMc-EXzSelcZ8CrHhmwYlglZZS3Lbpn0d1fWOgsq9hwDvgLP70eTEhxr_sHWqtGBRPow0wB5mln7c3UJyghcIX9g5hFVypZiYPuhpP8gJPcjGc6s6IFstHFQkvoLW1NYz-9fC2wULP3BD4njWNvOtIxX0akEhA8GioArBBjLbXO=w961-h637-no);
+  background-size: cover;
+  background-position: top;
 }
 
 .wrapper{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 20px;
+  grid-gap: 1px 1px;
+  background-color: white;
 }
 
 .column {
   line-height: 2em;
   font-family: sans-serif;
-  background-color: blue;
-  color: white;
-  margin: 3px;
+  background-color: lightgrey;
+  color: black;
 }
 
 button {
