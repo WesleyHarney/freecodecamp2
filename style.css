@@ -29,6 +29,9 @@ header {
 
 button {
   font-size: 15px;
+  text-align: left;
+  line-height: 25px;
+  display: block;
 
 }
 .button{
